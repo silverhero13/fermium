@@ -6,10 +6,7 @@ interface Props {
 }
 
 const FieldGroup = (props: PropsWithChildren) => {
-  return (
-    <div className='field-group'>
-        {props.children}
-    </div>)
+  return <div className="field-group">{props.children}</div>
 }
 
 export default FieldGroup

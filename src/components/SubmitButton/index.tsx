@@ -6,7 +6,7 @@ interface Props {
 }
 
 const Field = (props: Props) => {
-  return (<input className='submit-button' type={"submit"} value={props.value} />)
+  return <input className="submit-button" type={'submit'} value={props.value} />
 }
 
 export default Field

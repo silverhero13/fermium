@@ -9,10 +9,15 @@ interface Props {
 
 const Field = (props: Props) => {
   return (
-    <div className='field'>
-      <label className='field__label'>{props.label}</label>
-      <input className='field__input' type={props.type} required={props.required} />
-    </div>)
+    <div className="field">
+      <label className="field__label">{props.label}</label>
+      <input
+        className="field__input"
+        type={props.type}
+        required={props.required}
+      />
+    </div>
+  )
 }
 
 export default Field
