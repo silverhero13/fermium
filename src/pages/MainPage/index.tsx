@@ -16,13 +16,13 @@ function App() {
   const [showAddMenuModal, setShowAddMenuModal] = React.useState(false)
 
   const getMenu = async () => {
-    const { data } = await axios.get<Menu[]>('http://localhost:3000/menu')
+    const { data } = await axios.get<Menu[]>('http://localhost:1234/menu')
 
     setMenuList(data)
   }
 
   const deleteMenu = async (id: number) => {
-    await axios.delete(`http://localhost:3000/menu/${id}`)
+    await axios.delete(`http://localhost:1234/menu/${id}`)
   }
 
   const handleUpdateMenu = (menu: Menu) => () => {

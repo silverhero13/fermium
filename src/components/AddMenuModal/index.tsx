@@ -30,7 +30,7 @@ const AddMenuModal = () => {
       type,
     }
 
-    await axios.post('http://localhost:3000/menu', data)
+    await axios.post('http://localhost:1234/menu', data)
   }
 
   const handleAddMenu: FormEventHandler = (e) => {

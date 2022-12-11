@@ -30,7 +30,7 @@ const UpdateMenuModal = (props: Props) => {
   }
 
   const updateMenu = async () => {
-    await axios.patch(`http://localhost:3000/menu/${id}`, {
+    await axios.patch(`http://localhost:1234/menu/${id}`, {
       name,
       price,
       type,
