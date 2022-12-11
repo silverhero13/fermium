@@ -1,6 +1,5 @@
 .main-page {
   height: 100vh;
-  display: flex;
 }
 
 .form {
@@ -10,4 +9,34 @@
   padding: 64px;
   background-color: #faf9f8;
   border-radius: 16px;
+}
+
+.menu-table {
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.menu-table th {
+  font-weight: bold;
+}
+
+.menu-table th,
+.menu-table td {
+  padding: 12px 16px;
+  border: 1px solid black;
+}
+
+.add-menu-form {
+  margin: auto;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.add-menu-form input,
+.add-menu-form select,
+.add-menu-form option {
+  font-size: 24px;
 }
